@@ -2,3 +2,89 @@
     margin: 0;
     padding: 0;
 }
+
+.find {
+    height: 13rem;
+    line-height: 13rem;
+    background: white;
+    border-bottom: 1px solid rgb(79, 70, 70);
+}
+
+.find p {
+    font-size: 6rem;
+    font-weight: 800;
+    padding-left: 6rem;
+}
+
+.find p .mima {
+    font-weight: 500;
+    font-size: 5rem;
+    padding-left: 2rem;
+}
+
+.main li {
+    height: 10rem;
+    border: 1px solid gray;
+}
+
+.main li input {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 10rem;
+    line-height: 10rem;
+    padding-left: 10rem;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+
+    /* padding: 0 5rem; */
+    font-size: 2rem;
+}
+
+.main li {
+
+    height: 100%;
+    border-bottom: 1px solid goldenrod;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .left img {
+    width: 30rem;
+    height: 30rem;
+
+    margin: 2rem 0rem;
+    padding-left: 20rem;
+}
+
+.main .rightt {
+    width: 30rem;
+    overflow: hidden;
+
+}
+
+.main .right>h2 {
+    font-size: 4.18rem;
+    width: 43.87rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.main .right p {
+    font-size: 4.2rem;
+    margin-right: 45rem;
+    line-height: 9rem;
+    color: rgb(5, 5, 5);
+    overflow: hidden;
+}
+
+.main .right p span {
+    padding-left: 5rem;
+    color: #ff8a00;
+
+}

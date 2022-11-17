@@ -1,4 +1,194 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
+}
+
+.find {
+    height: 13rem;
+    line-height: 13rem;
+    background: white;
+    border-bottom: 1px solid rgb(79, 70, 70);
+}
+
+.find p {
+    font-size: 6rem;
+    font-weight: 800;
+    padding-left: 6rem;
+}
+
+.find p .mima {
+    font-weight: 500;
+    font-size: 5rem;
+    padding-left: 2rem;
+}
+
+.main li {
+    height: 10rem;
+    border: 1px solid gray;
+}
+
+.main li input {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 10rem;
+    line-height: 10rem;
+    padding-left: 10rem;
+    box-sizing: border-box;
+}
+
+.login .text {
+    display: flex;
+    background: white;
+
+}
+
+.login .text li {
+    flex: 1;
+    border-right: none;
+    border-left: none;
+    text-align: center;
+    line-height: 10rem;
+    border-bottom: .5rem solid gray;
+    font-size: 3rem;
+}
+
+.login li:nth-of-type(1) {
+    border-bottom: .5rem solid rgb(235, 129, 17);
+    z-index: 2;
+}
+
+.btn {
+    width: 80%;
+    height: 10rem;
+    border: none;
+    outline: none;
+    background: #ff8a00;
+    font-size: 2.5rem;
+    margin-top: 7rem;
+    margin-left: 15rem;
+}
+
+.foot {
+    margin: 2rem 1rem 0;
+    font-size: 3.5rem;
+}
+
+.foot a:nth-of-type(1) {
+    float: left;
+    color: #ff8a00;
+}
+
+.foot a:nth-of-type(2) {
+    float: right;
+    color: gray;
+} */
+nav {
+    height: 3rem;
+    line-height: 3rem;
+    border-bottom: 1px solid grey;
+}
+
+nav p {
+    margin-left: 1.5rem;
+    white-space: nowrap;
+}
+
+nav p>a:nth-of-type(1) {
+    font-weight: 700;
+}
+
+nav a {
+    color: black;
+    font-size: 1.2rem;
+}
+
+.title {
+    display: flex;
+    /* background: #ffffff; */
+    height: 10rem;
+    line-height: 10rem;
+}
+
+.title li {
+    font-size: 5.4rem;
+    white-space: nowrap;
+    flex: 1;
+    padding-left: 10rem;
+    border-bottom: 0.4rem solid #d1d1d1;
+}
+
+.title .active {
+    border-bottom: 0.4rem solid #FE8A00;
+}
+
+/* tap切换 隐藏显示 */
+.none:nth-of-type(2) {
+    display: none;
+}
+
+.none .int {
+    line-height: 8rem;
+    height: 16rem;
+    border-bottom: 1px solid grey;
+}
+
+.none .int input {
+    border: none;
+    height: 100%;
+    padding-left: 20rem;
+    outline: none;
+    font-size: 3rem;
+}
+
+.none .int:nth-of-type(1) {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.none .int:nth-of-type(1) button {
+    white-space: nowrap;
+    align-self: center;
+    width: 30rem;
+    height: 8rem;
+    font-size: 3.6rem;
+    border: 1px solid #c5b2b2;
+}
+
+.but {
+    white-space: nowrap;
+    margin-top: 1.5rem;
+    margin-left: 6rem;
+    height: 10rem;
+    width: 90%;
+    color: white;
+    font-size: 3.4rem;
+    background-color: #FE8A00;
+    border: none;
+    outline: none;
+}
+
+.regester {
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    font-size: 3rem;
+}
+
+.regester>a:nth-of-type(1) {
+    color: #FE8A00;
+    margin-left: 2rem;
+    white-space: nowrap;
+    margin-right: 2rem;
+
+}
+
+.regester>a:nth-of-type(2) {
+    white-space: nowrap;
+    margin-right: 2rem;
+    color: gray;
 }
